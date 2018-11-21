@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HThreadQueue"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "常用线程的简单封装"
 
   s.homepage     = "https://github.com/hugengwei/HThreadQueue"
