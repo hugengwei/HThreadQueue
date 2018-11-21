@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HThreadQueue.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self demo1];
+}
+
+//执行一个异步任务（子线程执行）
+- (void)demo1
+{
+    [[HThreadQueue defaultQueue] asyncWork:^{
+        NSLog(@"%@",[NSThread currentThread]);
+    }];
+}
+
+- (void)dealloc
+{
+    
+}
 
 @end
