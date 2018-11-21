@@ -1,0 +1,6 @@
+framework module HThreadQueue {
+  umbrella header "HThreadQueue-umbrella.h"
+
+  export *
+  module * { export * }
+}

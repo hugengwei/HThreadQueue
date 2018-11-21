@@ -1,0 +1,6 @@
+framework module Pods_HThreadQueueDemo {
+  umbrella header "Pods-HThreadQueueDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

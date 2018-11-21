@@ -1,0 +1,16 @@
+PODS:
+  - HThreadQueue (0.0.2)
+
+DEPENDENCIES:
+  - HThreadQueue (~> 0.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HThreadQueue
+
+SPEC CHECKSUMS:
+  HThreadQueue: add7972004e7bd62a9b6562a70c4bdc155bc3341
+
+PODFILE CHECKSUM: 096d2821cbcb248952008ec238e4c8ced4d0207a
+
+COCOAPODS: 1.5.3
