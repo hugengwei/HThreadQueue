@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => "https://github.com/hugengwei/HThreadQueue.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/hugengwei/HThreadQueue.git", :tag => "{s.version}" }
 
   s.source_files  = "HThreadQueue", "HThreadQueue/*.{h,m}"
   s.public_header_files = "HThreadQueue/*.h"
