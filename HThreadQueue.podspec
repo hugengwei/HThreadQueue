@@ -11,11 +11,13 @@ Pod::Spec.new do |s|
 
   s.author             = { "hugengwei" => "hugengwei1990@163.com" }
 
-  s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
 
   s.source       = { :git => "https://github.com/hugengwei/HThreadQueue.git", :tag => "#{s.version}" }
 
   s.source_files  = "HThreadQueue", "HThreadQueue/*.{h,m}"
   s.public_header_files = "HThreadQueue/*.h"
+
+  s.requires_arc  = true
+  
 end
